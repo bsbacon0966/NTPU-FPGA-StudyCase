@@ -11,7 +11,7 @@ This GitHub project documents the course content of "Programmable Logic Array Sy
 |[Module 4 Regular Sequential Circuit]()|[HW5]()|
 |[Module 5 Finite-State Machine]()|[HW6]()|
 |[Module 6 FSM with Data Path]()|[HW7]() & [HW8]()|
-|[Module 7 Embedded Memory]()|[HW9]()&[HW10]()|
+|[Module 7 Embedded Memory]()|[HW9]() & [HW10]()|
 |[Module 8 UART]()|[HW11]()|
 |[Module 9 VGA Controller]()|[HW12]()|
 |Final Project Time|[Final Project]()|
