@@ -33,3 +33,4 @@ endmodule
 
 # XDC
 和HW2相近，但因為output需要 5 Bits ， 所以需要多宣告兩顆LED燈當輸出，input 名稱是 bin_input[3:0]，output 是 bcd_output[4:0]
+
