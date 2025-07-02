@@ -20,6 +20,7 @@
 | **Data Path**    | 執行計數任務與內部儲存      | `q_reg`, `q_next`, `q_zero`                             |
 | **Control Path** | 控制資料行為與 FSM 狀態轉換 | `state_reg`, `state_next`, `q_load`, `q_dec`, `db_tick` |
 
+```Verilog
 module debounce_explicit
    (
     input wire clk, reset,
