@@ -8,7 +8,7 @@
 - half_adder：處理最低位元（LSB）的加法。
 - full_adder：處理次高位元，並加入來自 LSB 的進位。
 - combine：將兩個模組串接起來，使前一位的進位作為下一位的輸入。
-
+![alt text](S__4431889_0.jpg)
 ## Full Adder
 | A | B | Cin | Sum | Carry (Cout) |
 | - | - | --- | --- | ------------ |
@@ -20,7 +20,7 @@
 | 1 | 0 | 1   | 0   | 1            |
 | 1 | 1 | 0   | 0   | 1            |
 | 1 | 1 | 1   | 1   | 1            |
-
+![alt text](S__4431888_0.jpg)
 ```Verilog
 module full_adder
     (

@@ -6,6 +6,8 @@
 
 > switch-case 是平行判斷的結構，沒有預設的優先權，也更貼近硬體設計中**多工器（multiplexer, MUX）**的運作方式，有助於**維持 RTL 的清晰邏輯**，也較容易合成出高效、面積較小的邏輯電路。
 
+![alt text](S__4440066.jpg)
+
 則輸入 4 Bits ，輸出 8 Bits，之中用always block去實現判斷式
 
 ```Verilog
