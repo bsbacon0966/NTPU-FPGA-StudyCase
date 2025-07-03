@@ -5,8 +5,8 @@ This GitHub project documents the course content of " 可程式化邏輯閘陣�
 Score : 98.47 (2/13)
 Final Project Score : 99 (1/13)
 
-# Final Project Video Demo
-<video src="https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/final_project.mp4" width="320" height="240" controls></video>
+# [Final Project Video Demo](https://youtu.be/jHjMt2gwJUA)
+
 # Course Description & Homework Explanations + Code (in Chinese)
 
 |Course Description|Homework Explanations + Code|
