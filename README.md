@@ -1,6 +1,10 @@
 # NTPU-FPGA-StudyCase
 This GitHub project documents the course content of " 可程式化邏輯閘陣列系統設計 -- FPGA System Design," taught by Professor 白宏達, as well as the thought processes and explanations involved in completing 12 assignments and the Final Project.
 
+# Performance in class
+Score : 98.47 (2/13)
+Final Project Score : 99 (1/13)
+
 # Course Description & Homework Explanations + Code (in Chinese)
 
 |Course Description|Homework Explanations + Code|
