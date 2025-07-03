@@ -114,3 +114,5 @@ endmodule
 同時產生 VGA 所需的同步訊號 hsync 和 vsync。
 
 - PixelGen 根據座標，決定顯示的內容，output接上vga的RGB data pin，只要 PixelGen 輸出正確的顏色，當前螢幕的該格座標就會顯示顏色
+
+![alt text](S__4440087.jpg)
