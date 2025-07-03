@@ -13,6 +13,6 @@ This GitHub project documents the course content of " 可程式化邏輯閘陣�
 |[Module 6 FSM with Data Path](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%206%20FSM%20with%20Data%20Path.md)|[HW7](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW7)& [HW8](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW8)|
 |[Module 7 Embedded Memory](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%207%20Embedded%20Memory.md)|[HW9] & [HW10]|
 |[Module 8 UART](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%208%20UART.md)|[HW11]|
-|[Module 9 VGA Controller](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%209%20VGA%20Controller.md)|[HW12]|
+|[Module 9 VGA Controller](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%209%20VGA%20Controller.md)|[HW12](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW12)|
 |Final Project Time|[Final Project]|
 
