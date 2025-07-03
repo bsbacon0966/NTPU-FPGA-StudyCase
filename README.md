@@ -6,6 +6,7 @@ Score : 98.47 (2/13)
 Final Project Score : 99 (1/13)
 
 # [Final Project Video Demo](https://youtu.be/jHjMt2gwJUA)
+![image](https://github.com/user-attachments/assets/c8839fcf-d26c-4536-8f61-a53902638704)
 
 # Course Description & Homework Explanations + Code (in Chinese)
 
