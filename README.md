@@ -15,8 +15,8 @@ Final Project Score : 99 (1/13)
 |[Module 4 Regular Sequential Circuit](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%204%20Regular%20Sequential%20Circuit.md)|[HW5](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW5)|
 |[Module 5 Finite-State Machine](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%205%20Finite-State%20Machine.md)|[HW6](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW6)|
 |[Module 6 FSM with Data Path](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%206%20FSM%20with%20Data%20Path.md)|[HW7](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW7)& [HW8](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW8)|
-|[Module 7 Embedded Memory](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%207%20Embedded%20Memory.md)|[HW9] & [HW10]|
-|[Module 8 UART](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%208%20UART.md)|[HW11]|
+|[Module 7 Embedded Memory](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%207%20Embedded%20Memory.md)|[HW9](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW9) & [HW10](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW10)|
+|[Module 8 UART](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%208%20UART.md)|[HW11](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW11)|
 |[Module 9 VGA Controller](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%209%20VGA%20Controller.md)|[HW12](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW12)|
-|Final Project Time|[Final Project]|
+|Final Project Time|[Final Project](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/final_project/final_complete.srcs/sources_1/new)|
 
