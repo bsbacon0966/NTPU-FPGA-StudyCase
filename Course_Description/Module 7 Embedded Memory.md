@@ -143,7 +143,6 @@
 ```
 address_read 用於 .ADDRARDADDR(address_read), **透過設計地址，我們只需要專注指針設計就好(w_ptr_reg)**，address_write同理
 
----
 
 ## Artix-7 裝置中的嵌入式記憶體類型
 
@@ -158,8 +157,6 @@ address_read 用於 .ADDRARDADDR(address_read), **透過設計地址，我們只
   - 總共有 50 個 Block。
 
 分散式 RAM 和塊狀 RAM 都有同步介面，不需額外控制電路。
-
----
 
 ## 設計範例：基於 Block-RAM 的 FIFO
 
@@ -181,8 +178,6 @@ address_read 用於 .ADDRARDADDR(address_read), **透過設計地址，我們只
   - 使用開關輸入資料。
   - 使用 LED 顯示讀取資料與滿/空狀態。
 
----
-
 ## ROM (唯讀記憶體)
 
 ### 實現方式
@@ -193,8 +188,6 @@ address_read 用於 .ADDRARDADDR(address_read), **透過設計地址，我們只
 - **非同步**（asynchronous）或 **同步**（synchronous）讀取。
 
 📌 提供非同步與同步讀取 ROM 的 Verilog 模板。
-
----
 
 ## 設計範例：基於 ROM 的 sin(x) 函數
 
@@ -208,4 +201,3 @@ address_read 用於 .ADDRARDADDR(address_read), **透過設計地址，我們只
   - 顯示三個完整週期的正弦波。
   - 可於模擬器中觀察波形與符號化十進位輸出。
 
----
