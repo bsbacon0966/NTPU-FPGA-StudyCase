@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log image_rom.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source image_rom.tcl
+

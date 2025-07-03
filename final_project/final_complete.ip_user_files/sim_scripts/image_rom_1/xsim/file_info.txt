@@ -1,0 +1,2 @@
+image_rom.v,verilog,xil_defaultlib,../../../../final_complete.gen/sources_1/ip/image_rom_1/sim/image_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

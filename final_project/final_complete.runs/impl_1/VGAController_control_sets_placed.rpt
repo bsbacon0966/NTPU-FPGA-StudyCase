@@ -1,0 +1,90 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Jun  5 03:32:24 2025
+| Host         : 408-011 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file VGAController_control_sets_placed.rpt
+| Design       : VGAController
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    12 |
+|    Minimum number of control sets                        |    12 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    48 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    12 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |            9 |
+| No           | No                    | Yes                    |              62 |           27 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             264 |           92 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+-----------------------------+------------------+------------------+----------------+--------------+
+|        Clock Signal        |        Enable Signal        | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+-----------------------------+------------------+------------------+----------------+--------------+
+|  vga_clk_252/inst/clk_out1 | vga_sync/hsync_i_1_n_0      | db_right/AR[0]   |                1 |              1 |         1.00 |
+|  vga_clk_252/inst/clk_out1 | vga_sync/p_1_out            | db_right/AR[0]   |                1 |              1 |         1.00 |
+|  vga_clk_252/inst/clk_out1 | frog_logic_inst/next_frog_x | db_right/AR[0]   |                2 |              4 |         2.00 |
+|  vga_clk_252/inst/clk_out1 | frog_logic_inst/next_frog_y | db_right/AR[0]   |                2 |              4 |         2.00 |
+|  vga_clk_252/inst/clk_out1 | vga_sync/y_cnt[9]_i_1_n_0   | db_right/AR[0]   |                8 |             10 |         1.25 |
+|  vga_clk_252/inst/clk_out1 |                             |                  |                9 |             18 |         2.00 |
+|  vga_clk_252/inst/clk_out1 | db_up/q_next                | db_right/AR[0]   |                5 |             21 |         4.20 |
+|  vga_clk_252/inst/clk_out1 | db_left/q_next              | db_right/AR[0]   |                5 |             21 |         4.20 |
+|  vga_clk_252/inst/clk_out1 | db_down/q_next              | db_right/AR[0]   |                5 |             21 |         4.20 |
+|  vga_clk_252/inst/clk_out1 | db_right/q_next             | db_right/AR[0]   |                5 |             21 |         4.20 |
+|  vga_clk_252/inst/clk_out1 |                             | db_right/AR[0]   |               27 |             62 |         2.30 |
+|  vga_clk_252/inst/clk_out1 | update_grid                 | db_right/AR[0]   |               58 |            160 |         2.76 |
++----------------------------+-----------------------------+------------------+------------------+----------------+--------------+
+
+

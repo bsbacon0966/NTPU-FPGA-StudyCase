@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="you_win_rom_synth_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1749060821">
+  <File Type="REPORTS-TCL" Name="you_win_rom_reports.tcl"/>
+  <File Type="RDS-UTIL" Name="you_win_rom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="you_win_rom_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="you_win_rom.tcl"/>
+  <File Type="RDS-RDS" Name="you_win_rom.vds"/>
+  <File Type="RDS-DCP" Name="you_win_rom.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/you_win_rom" RelGenDir="$PGENDIR/you_win_rom">
+    <File Path="$PSRCDIR/sources_1/ip/you_win_rom/you_win_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="you_win_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/you_win_rom" RelGenDir="$PGENDIR/you_win_rom">
+    <File Path="$PSRCDIR/sources_1/ip/you_win_rom/you_win_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="you_win_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/VGAController.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
