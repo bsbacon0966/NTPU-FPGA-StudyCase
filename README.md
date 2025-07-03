@@ -5,6 +5,8 @@ This GitHub project documents the course content of " 可程式化邏輯閘陣�
 Score : 98.47 (2/13)
 Final Project Score : 99 (1/13)
 
+# Final Project Video Demo
+
 # Course Description & Homework Explanations + Code (in Chinese)
 
 |Course Description|Homework Explanations + Code|
