@@ -24,4 +24,5 @@ This GitHub project documents the course content of " 可程式化邏輯閘陣�
 
 
 # [Final Project Video Demo](https://youtu.be/jHjMt2gwJUA)
+![alt text](image.png)
 ![image](https://github.com/user-attachments/assets/c8839fcf-d26c-4536-8f61-a53902638704)
