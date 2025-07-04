@@ -237,4 +237,37 @@ else if (update_grid) begin // 當此訊號tick，代表當前木頭正在移動
 
 ![alt text](S__4440099.jpg)
 
-## 顯示畫面到螢幕上
+## 顯示畫面到螢幕上(`pixel_generate_display.v`)
+最終畫面上的顯示計算邏輯是在此模組中完成。為了讓顯示對應 .coe 圖片檔的每一個像素，我將整個畫面切割成 40 × 40 的格子（Grid），這樣做的理由如下：
+
+### 分割成 40 × 40 格子的原因：
+除了上述提到的方便找出目前顯示的格子類型（grid_value）外，也可以透過`%`去找到offset，此office可以幫助我們找到精確的ROM Address
+
+### 精確對應到 ROM 中圖片的位置
+每種格子的圖案都儲存在 ROM 中，每個圖案固定大小為 40 × 40 像素，因此只要知道當前是**第幾個格子**，便能**計算出該圖在 ROM 中的起始位置。**
+
+### 快速計算 ROM offset，直接對應像素色值
+每個像素在當前 grid 中的相對位置（local_x, local_y）可這樣計算：
+```Verilog
+local_x = pixel_x % 40;
+local_y = pixel_y % 40;
+pixel_offset = local_y * 40 + local_x;
+```
+
+這樣就可以對應到該格圖案的第 pixel_offset 個像素，進而從 ROM 讀取正確顏色資料。
+
+### 地圖顯示的總流程圖解：
+先確定當前格子是什麼格子，先將指針指引到"ROM中當格資訊"的頭部 -> 透過 pixel 座標計算offset 找到" 頭部 + office "精確顏色pixel並且繪圖。
+
+```Verilog
+    // pixel 在格子中的位置
+    wire [5:0] local_x = pixel_x % GRID_SIZE;
+    wire [5:0] local_y = pixel_y % GRID_SIZE;
+    wire [11:0] pixel_offset = local_y * GRID_SIZE + local_x;
+    map_rom_addr = grid_value * GRID_SIZE * GRID_SIZE + pixel_offset;
+```
+
+(==放圖==)
+
+### 青蛙也是同理，但多了四個方位的圖
+
