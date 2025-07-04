@@ -6,9 +6,6 @@ This GitHub project documents the course content of " 可程式化邏輯閘陣�
 
 ### Final Project Score : 99 (1/13)
 
-# [Final Project Video Demo](https://youtu.be/jHjMt2gwJUA)
-![image](https://github.com/user-attachments/assets/c8839fcf-d26c-4536-8f61-a53902638704)
-
 # Course Description & Homework Explanations + Code (in Chinese)
 
 |Course Description|Homework Explanations + Code|
@@ -24,3 +21,7 @@ This GitHub project documents the course content of " 可程式化邏輯閘陣�
 |[Module 9 VGA Controller](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/blob/main/Course_Description/Module%209%20VGA%20Controller.md)|[HW12](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/HomeWork/HW12)|
 |Final Project Time|[Final Project](https://github.com/bsbacon0966/NTPU-FPGA-StudyCase/tree/main/final_project/final_complete.srcs/sources_1/new)|
 
+
+
+# [Final Project Video Demo](https://youtu.be/jHjMt2gwJUA)
+![image](https://github.com/user-attachments/assets/c8839fcf-d26c-4536-8f61-a53902638704)
