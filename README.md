@@ -2,11 +2,13 @@
 This GitHub project documents the course content of " 可程式化邏輯閘陣列系統設計 -- FPGA System Design," taught by Professor 白宏達, as well as the thought processes and explanations involved in completing 12 assignments and the Final Project.
 
 # Performance in class
-Score : 98.47 (2/13)
-Final Project Score : 99 (1/13)
+### Score : 98.47 (2/13)
 
-# Final Project Video Demo
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
+### Final Project Score : 99 (1/13)
+
+# [Final Project Video Demo](https://youtu.be/jHjMt2gwJUA)
+![image](https://github.com/user-attachments/assets/c8839fcf-d26c-4536-8f61-a53902638704)
+
 # Course Description & Homework Explanations + Code (in Chinese)
 
 |Course Description|Homework Explanations + Code|
