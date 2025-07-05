@@ -267,7 +267,12 @@ pixel_offset = local_y * 40 + local_x;
     map_rom_addr = grid_value * GRID_SIZE * GRID_SIZE + pixel_offset;
 ```
 
-(==放圖==)
+![alt text](S__4440104.jpg)
 
 ### 青蛙也是同理，但多了四個方位的圖
 
+公式如下 : `frog_rom_addr = is_wood * 4 * GRID_SIZE * GRID_SIZE + frog_dir * GRID_SIZE * GRID_SIZE + pixel_offset;`
+
+因為我有設計"青蛙在安全區與木頭時的貼圖"，所以總共八張青蛙，分別是在安全區中的上下左右，以及木頭上的上下左右
+
+![alt text](S__4440105.jpg)
